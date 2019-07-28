@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, Button, Text, View } from 'react-native';
+import { StyleSheet, FlatList, TextInput, Button, View } from 'react-native';
 
 import { Ionicons, Feather } from 'react-native-vector-icons';
-import Cam from './Screens/Cam'
+
 import Navigation from './Config/Navigation'
 
+import { Left, Card, CardItem, Container, Content, Text, Thumbnail, Badge } from 'native-base'
+import ChatList from './Screens/chatlist';
 
 
 
@@ -19,7 +21,10 @@ class App extends Component {
 
   render() {
     return (
-    <Navigation />
+   
+      //   <CardItem>
+     <Navigation />
+     
     );
   }
 
